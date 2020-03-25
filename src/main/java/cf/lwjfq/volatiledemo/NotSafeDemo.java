@@ -26,10 +26,10 @@ public class NotSafeDemo {
     }
 
     private static void hashMapNotSafe() {
-        //Map<String, String> hashMap = new HashMap<>();
+        Map<String, String> hashMap = new HashMap<>();
         //并发版本的hashMap。
-        Map<String, String> hashMap = new ConcurrentHashMap<>() ;
-        for (int i = 0; i < 3; i++) {
+//        Map<String, String> hashMap = new ConcurrentHashMap<>() ;
+        for (int i = 0; i < 300; i++) {
             new Thread(()-> {
                 hashMap.put(Thread.currentThread().getName(), UUID.randomUUID().toString().substring(0, 8));
                 System.out.println(hashMap);
