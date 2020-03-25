@@ -7,6 +7,7 @@ import java.util.concurrent.CyclicBarrier;
  * @ Author: Mr.Li
  * @ Date: 2020-03-25 17:41
  * @ Description: 人到齐了在开会
+ * 做加法
  **/
 public class CyclicBarrierDemo {
     public static void main(String[] args) {

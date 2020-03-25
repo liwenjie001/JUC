@@ -8,6 +8,7 @@ import java.util.concurrent.CountDownLatch;
  * @ Date: 2020-03-25 17:29
  * @ Description: 当其他线程运行完了在运行下面的代码
  * 倒计时
+ * 做减法
  **/
 public class CountDownLatchDemo {
     public static void main(String[] args) throws InterruptedException {
