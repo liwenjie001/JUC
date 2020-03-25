@@ -1,6 +1,4 @@
-package cf.lwjfq.threadDemo;
-
-import com.sun.javafx.collections.MappingChange;
+package cf.lwjfq.JUC;
 
 import java.util.HashMap;
 import java.util.Map;

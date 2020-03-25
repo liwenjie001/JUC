@@ -1,4 +1,4 @@
-package cf.lwjfq.threadDemo;
+package cf.lwjfq.JUC;
 
 import java.util.concurrent.BrokenBarrierException;
 import java.util.concurrent.CyclicBarrier;
