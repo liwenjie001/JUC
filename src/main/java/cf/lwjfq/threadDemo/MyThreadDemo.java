@@ -1,5 +1,6 @@
 package cf.lwjfq.threadDemo;
 
+import java.util.ArrayList;
 import java.util.concurrent.*;
 
 /**
@@ -10,6 +11,7 @@ import java.util.concurrent.*;
 public class MyThreadDemo {
     // 自定义线程池
     public static void main(String[] args) throws InterruptedException {
+
         ThreadPoolExecutor threadPoolExecutor = new ThreadPoolExecutor(
                 2,
                 5,
@@ -25,6 +27,8 @@ public class MyThreadDemo {
             });
         }
         threadPoolExecutor.shutdown();
+//        initPool();
+        System.out.println(Runtime.getRuntime().availableProcessors());
     }
 
     private static void initPool() {
